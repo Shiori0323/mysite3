@@ -1,0 +1,14 @@
+/* Jumbotron background and font styles */
+/* Notice that I'm using all of the background CSS rules on the CSS cheat sheet */
+.jumbotron {
+    /* Background */
+    background-attachment: fixed;
+    background-image: url(court-cook-DWaiEFt9VT4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Fonts */
+    /* The text-shadow helps the white text stand out better on a darker background */
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
