@@ -71,68 +71,64 @@
          </div>
         </nav>
         <!-- 貼り付け終わり -->
-        <!-- BootstrapのJumbotron貼り付け -->    
-        <div class="jumbotron">
-            <h1 class="display-4">Welcome to XX Comunity!</h1>
-            <h2 class="lead">Conetc with thousands of others who have XX.</h2>
-            <hr class="my-4">
-        
-            <p>You Can Join in Our Online Community </p> 
-                  <ul>
-                    <li>from anywhere -at home or at hospital-</li>
-                    <li>under any condition -something difficult to access in-parson meetings-</li>
-                    <li>with protecting your privacy -of course you can join anonymously without video-</li>
-                  </ul>
+
+        <div class="row no-gutters bg-light position-relative">
+            <div class="col-md-6 mb-md-0 p-md-4">
+              <img src="texting-santa-wish-list.jpg" class="w-100" alt="...">
             </div>
-            <!-- 貼り付け終わり -->
-        <!-- グループ説明 -->
-        <div class="container">
-            <div class="row no-gutters bg-light position-relative">
-                <div class="col-md-6 mb-md-0 p-md-4">
-                  <img src="chris-montgomery-smgTvepind4-unsplash.jpg" class="w-100" alt="...">
-                </div>
-                <div class="col-md-6 position-static p-4 pl-md-0">
-                  <h5 class="mt-0">Online Meetings</h5>
-                  <p>We host live video meetings every week/month where members connect and share with each other. </p>
-                  <a href="joinmeetings.html" class="stretched-link">Join the meetings</a> 
-                </div>
-              </div>
-              <div class="row no-gutters bg-light position-relative">
-                <div class="col-md-6 mb-md-0 p-md-4">
-                  <img src="texting-santa-wish-list.jpg" class="w-100" alt="...">
-                </div>
-                <div class="col-md-6 position-static p-4 pl-md-0">
-                  <h5 class="mt-0">Online Chat Room</h5>
-                  <p>Whether sharing your feelings, asking questions, or taking part in a discussion, you can get connected quickly and easily.</p>
-                  <a href="chatroom.html" class="stretched-link">Go to Chat Room</a>
-                </div>
-        </div>
-
+            <div class="col-md-6 position-static p-4 pl-md-0">
+              <h1 class="mt-0">Online Chat Room</h1>
+              <h4>Whether sharing your feelings, asking questions, or taking part in a discussion, you can get connected quickly and easily.</h4>
+            
+            </div>
         
-      
-     <!-- Footer, just another grid, with a class added for custom styling -->
-     <div class="container footer">
-        <div class="row my-5">
-          <div class="col-sm-6">
-            <h1><i class="fas fa-feather-alt"></i>Pts.</h1>
-          </div>
-          <div class="col-sm-3">
-
-            <ul class="list-unstyled mt-3">
-              <li><a href="About Us"> About Us</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-          </div>
-          <div class="col-sm-3">
-            <h6>Establish in 2020</h6>
-            <p class="mt-3"><em>For educational purposes only.</em></p>
-          </div>
-        </div>
-      </div>
-    <!-- Bootstrapを有効にするためにやること② JSのlink貼り付け -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    </body>
-</html>       
+            <!-- 掲示板機能 Disqus -->
+        <div class="container">
+            <div id="disqus_thread"></div>
+            <script>
    
+               /**
+               *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+               *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+               /*
+               var disqus_config = function () {
+               this.page.url = file:///Users/katoshiori/code/mysite3/group1.html;  // Replace file:///Users/katoshiori/code/mysite3/group1.html with your page's canonical URL variable
+               this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+               };
+               */
+               (function() { // DON'T EDIT BELOW THIS LINE
+               var d = document, s = d.createElement('script');
+               s.src = 'https://shiori-1.disqus.com/embed.js';
+               s.setAttribute('data-timestamp', +new Date());
+               (d.head || d.body).appendChild(s);
+               })();
+               </script>
+               <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+           </div>
+         
+        <!-- Footer, just another grid, with a class added for custom styling -->
+        <div class="container footer">
+           <div class="row my-5">
+             <div class="col-sm-6">
+               <h1><i class="fas fa-feather-alt"></i>Pts.</h1>
+             </div>
+             <div class="col-sm-3">
+   
+               <ul class="list-unstyled mt-3">
+                 <li><a href="About Us"> About Us</a></li>
+                 <li><a href="contact.html">Contact Us</a></li>
+               </ul>
+             </div>
+             <div class="col-sm-3">
+               <h6>Establish in 2020</h6>
+               <p class="mt-3"><em>For educational purposes only.</em></p>
+             </div>
+           </div>
+         </div>
+       <!-- Bootstrapを有効にするためにやること② JSのlink貼り付け -->
+       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+       </body>
+   </html>       
+      
